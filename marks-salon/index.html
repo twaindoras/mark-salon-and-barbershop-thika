@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mark's Salon & Barbershop</title>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+
+    <div class="logo">
+        ✂ MARK'S
+        <span>SALON & BARBERSHOP</span>
+    </div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#booking">Contact</a></li>
+    </ul>
+
+    <a href="#booking" class="nav-btn">Book Now</a>
+
+</nav>
+
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="small-title">
+            LOOK GOOD • FEEL GOOD
+        </div>
+
+        <h1>
+            Professional Hair &
+            <span>Grooming</span>
+        </h1>
+
+        <p>
+            Premium haircuts, grooming and beauty services
+            from professional stylists. Your style,
+            our priority.
+        </p>
+
+        <a href="#booking" class="btn">
+            📅 Book Appointment →
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- SERVICES -->
+<section class="services" id="services">
+
+    <div class="section-title">
+        <p>OUR SERVICES</p>
+        <h2>What We Offer</h2>
+    </div>
+
+    <div class="service-grid">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=700&q=80">
+            <div class="card-content">
+                <h3>✂ Haircut</h3>
+                <p>Fresh, clean and stylish haircut.</p>
+                <div class="price">KSh 300</div>
+                <button class="book-btn" onclick="selectService('Haircut')">
+                    Book Now
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=700&q=80">
+            <div class="card-content">
+                <h3>🧔 Beard Trim</h3>
+                <p>Keep your beard sharp and neat.</p>
+                <div class="price">KSh 150</div>
+                <button class="book-btn" onclick="selectService('Beard Trim')">
+                    Book Now
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=700&q=80">
+            <div class="card-content">
+                <h3>💇 Hair Styling</h3>
+                <p>Professional styling for every occasion.</p>
+                <div class="price">KSh 500</div>
+                <button class="book-btn" onclick="selectService('Hair Styling')">
+                    Book Now
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=700&q=80">
+            <div class="card-content">
+                <h3>💆 Hair Wash</h3>
+                <p>Relaxing wash for clean, healthy hair.</p>
+                <div class="price">KSh 200</div>
+                <button class="book-btn" onclick="selectService('Hair Wash')">
+                    Book Now
+                </button>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=700&q=80">
+            <div class="card-content">
+                <h3>✨ Facial & Beauty</h3>
+                <p>Refresh your skin and natural glow.</p>
+                <div class="price">KSh 800</div>
+                <button class="book-btn" onclick="selectService('Facial & Beauty')">
+                    Book Now
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section id="about">
+
+    <div class="about">
+
+        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1000&q=80">
+
+        <div>
+
+            <div class="small-title">
+                WHY CHOOSE US
+            </div>
+
+            <h2>Style That Makes You Feel Confident</h2>
+
+            <p>
+                At Mark's Salon & Barbershop, we combine modern
+                styles with professional service to give every
+                customer a look they love.
+            </p>
+
+            <p>
+                Whether you need a fresh haircut, beard trim,
+                styling or beauty treatment, our team is ready
+                to serve you.
+            </p>
+
+            <div class="features">
+
+                <div class="feature">
+                    <h3>5+</h3>
+                    <p>Services</p>
+                </div>
+
+                <div class="feature">
+                    <h3>100+</h3>
+                    <p>Customers</p>
+                </div>
+
+                <div class="feature">
+                    <h3>5★</h3>
+                    <p>Service</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+
+    <div class="section-title">
+        <p>OUR WORK</p>
+        <h2>Gallery</h2>
+    </div>
+
+    <div class="gallery-grid">
+
+        <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=80">
+
+        <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=800&q=80">
+
+        <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=80">
+
+        <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=800&q=80">
+
+        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80">
+
+        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80">
+
+    </div>
+
+</section>
+
+
+<!-- BOOKING -->
+<section class="booking" id="booking">
+
+    <div class="section-title">
+        <p>BOOK NOW</p>
+        <h2>Make an Appointment</h2>
+    </div>
+
+    <div class="booking-box">
+
+        <form id="bookingForm">
+
+            <div class="form-grid">
+
+                <div>
+                    <label>Full Name</label>
+                    <input type="text" id="name"
+                           placeholder="Enter your name" required>
+                </div>
+
+                <div>
+                    <label>Phone Number</label>
+                    <input type="tel"
+                           placeholder="07XXXXXXXX" required>
+                </div>
+
+                <div>
+                    <label>Service</label>
+
+                    <select id="service" required>
+
+                        <option value="">
+                            Select a service
+                        </option>
+
+                        <option>Haircut</option>
+                        <option>Beard Trim</option>
+                        <option>Hair Styling</option>
+                        <option>Hair Wash</option>
+                        <option>Facial & Beauty</option>
+
+                    </select>
+
+                </div>
+
+                <div>
+                    <label>Date</label>
+                    <input type="date" required>
+                </div>
+
+                <div>
+                    <label>Time</label>
+                    <input type="time" required>
+                </div>
+
+            </div>
+
+            <button class="submit" type="submit">
+                📅 CONFIRM APPOINTMENT
+            </button>
+
+            <div id="message">
+                ✓ Appointment booked successfully!
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="footer-grid">
+
+        <div>
+            <h3>✂ MARK'S SALON</h3>
+
+            <p>
+                Professional hair, grooming and beauty
+                services for everyone.
+            </p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+
+            <p><a href="#home">Home</a></p>
+            <p><a href="#services">Services</a></p>
+            <p><a href="#about">About</a></p>
+            <p><a href="#gallery">Gallery</a></p>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+
+            <p>📍 Thika, Kenya</p>
+            <p>📞 +254 717244706</p>
+            <p>✉ marksalon@gmail.com</p>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 Mark's Salon & Barbershop. All Rights Reserved.
+    </div>
+
+</footer>
+
+
+<script>
+
+/* SELECT SERVICE FROM SERVICE CARD */
+
+function selectService(service) {
+
+    document.getElementById("service").value = service;
+
+    document.getElementById("booking")
+        .scrollIntoView({
+            behavior: "smooth"
+        });
+}
+
+
+/* BOOKING FORM */
+
+document.getElementById("bookingForm")
+.addEventListener("submit", function(event) {
+
+    event.preventDefault();
+
+    let name = document.getElementById("name").value;
+
+    document.getElementById("message").innerHTML =
+        "✓ Thank you " + name +
+        "! Your appointment has been booked successfully.";
+
+    document.getElementById("message").style.display = "block";
+
+    this.reset();
+
+});
+
+</script>
+
+</body>
+</html>
